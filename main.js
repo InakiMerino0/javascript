@@ -22,12 +22,12 @@ function cuotas (){
 }
 
 function panelPagos(){
-    for (let cuotasPagar = 0; i < 10; i++) {
-        alert(i);
+    let cuotasPagar = 12;
+    while (cuotasPagar >= 0) {
+        alert(`Debes pagar todas las cuotas antes de poder seguir navegando`);
     } if (cuotasPagar == 0){
         break;
-        alert ("No tienes cuotas a pagar")
-    }
-    
+        alert ("No tienes cuotas a pagar, puedes seguir navegando")
+    }    
 }
 
